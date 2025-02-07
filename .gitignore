@@ -1,0 +1,51 @@
+# Python Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments (do not version control)
+Venv/
+venv/
+ENV/
+env/
+
+# Environment Variables (API keys, sensitive data)
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+log/
+
+# SQLite Database files (if used)
+*.sqlite3
+*.db
+*.db-journal
+
+# Django specific files
+*.bak
+*.swp
+*.swo
+
+# Build Folders (e.g., Webpack or bundling tools)
+node_modules/
+dist/
+build/
+
+# Editor and IDE specific files
+.idea/             # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.vscode/           # VSCode specific configuration
+*.iml              # IntelliJ project files
+
+# System files (macOS, Windows)
+.DS_Store          # macOS specific
+Thumbs.db          # Windows specific
+
+# Test Coverage
+coverage/
+
+# TypeScript (if used)
+*.tsbuildinfo
